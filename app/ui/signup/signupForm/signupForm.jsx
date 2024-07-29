@@ -1,6 +1,6 @@
 "use client";
 
-import { authenticate } from "@/app/lib/actions";
+import { authenticate } from "../../../../app/lib/actions";
 import styles from "./signupForm.module.css";
 import { useFormState } from "react-dom";
 const SignupForm = () => {

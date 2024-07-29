@@ -1,4 +1,4 @@
-import styles from "@/app/ui/signup/signup.module.css";
+import styles from "../../app/ui/signup/signup.module.css";
 import SignupForm from "../ui/signup/signupForm/signupForm";
 
 const LoginPage = () => {

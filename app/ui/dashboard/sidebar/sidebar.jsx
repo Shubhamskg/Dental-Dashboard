@@ -16,7 +16,7 @@ import {
 import { BiClinic } from "react-icons/bi";
 import { FaUserDoctor } from "react-icons/fa6";
 import { FaTooth } from "react-icons/fa";
-import { auth, signOut } from "@/app/auth";
+import { auth, signOut } from "../../../../app/auth";
 
 const menuItems = [
   {
