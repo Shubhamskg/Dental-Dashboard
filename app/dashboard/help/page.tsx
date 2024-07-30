@@ -69,7 +69,7 @@ const Help = () => {
 
       <section className={styles.contact}>
         <h2>Contact Us</h2>
-        <p>If you couldn't find the answer to your question, please feel free to contact us directly.</p>
+        <p>If you couldn&apos;t find the answer to your question, please feel free to contact us directly.</p>
         <form onSubmit={handleSubmit} className={styles.contactForm}>
           <div className={styles.formGroup}>
             <label htmlFor="name">Name:</label>
