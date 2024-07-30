@@ -1,0 +1,127 @@
+.treatments {
+    padding: 2rem;
+    color: #ffffff;
+    background-color: #0f172a;
+    min-height: 100vh;
+  }
+  
+  .treatments h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e94560;
+  }
+  
+  .treatmentsContainer {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #1e293b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 250px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #e94560;
+  }
+  
+  .treatmentItem {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #334155;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .treatmentItem:hover {
+    background-color: #475569;
+  }
+  
+  .treatmentItem.selected {
+    background-color: #e94560;
+    color: #ffffff;
+  }
+  
+  .mainContent {
+    flex: 3;
+    background-color: #1e293b;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  
+  .treatmentHeader h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #e94560;
+  }
+  
+  .treatmentHeader p {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+  }
+  
+  .metricsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .metricCard {
+    background-color: #334155;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .metricCard h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #94a3b8;
+  }
+  
+  .metricCard p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e94560;
+  }
+  
+  .chartsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .chartWrapper {
+    background-color: #334155;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  .chartWrapper h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #e94560;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .treatmentsContainer {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      max-width: 100%;
+    }
+  
+    .chartsContainer {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,87 @@
+.clinics {
+    padding: 2rem;
+    color: #ffffff;
+  }
+  
+  .clinics h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e94560;
+  }
+  
+  .clinicsContainer {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .clinicsList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .clinicCard {
+    background-color: #16213e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .clinicCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .clinicCard.selected {
+    border: 2px solid #e94560;
+  }
+  
+  .clinicCard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #e94560;
+  }
+  
+  .clinicCard p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .clinicDetails {
+    flex: 2;
+    background-color: #16213e;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  
+  .clinicDetails h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e94560;
+  }
+  
+  .clinicDetails p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .chartContainer {
+    margin-top: 2rem;
+  }
+  
+  .chartContainer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #e94560;
+  }
+  
+  @media (max-width: 768px) {
+    .clinicsContainer {
+      flex-direction: column;
+    }
+  
+    .clinicsList, .clinicDetails {
+      width: 100%;
+    }
+  }

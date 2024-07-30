@@ -1,0 +1,105 @@
+.help {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #ffffff;
+  }
+  
+  .help h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e94560;
+  }
+  
+  .help h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #e94560;
+  }
+  
+  .faq {
+    margin-bottom: 3rem;
+  }
+  
+  .faqItem {
+    margin-bottom: 1rem;
+    background-color: #16213e;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .faqQuestion {
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f3460;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faqQuestion:hover {
+    background-color: #1a1a2e;
+  }
+  
+  .expandIcon {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .faqAnswer {
+    padding: 1rem;
+    background-color: #16213e;
+    border-top: 1px solid #1a1a2e;
+  }
+  
+  .contact p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contactForm {
+    background-color: #16213e;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #0f3460;
+    border-radius: 4px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+  }
+  
+  .formGroup textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    background-color: #e94560;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #c81e45;
+  }
